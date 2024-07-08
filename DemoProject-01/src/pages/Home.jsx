@@ -78,7 +78,7 @@ const Home = () => {
 
   return (
     <div>
-      <div className="grid grid-cols-1 gap-4 mx-10 md:grid-cols-2 md:mx-20 lg:grid-cols-4 lg:mx-24">
+      <div className="grid grid-cols-1 gap-4 mx-10 md:grid-cols-2 md:mx-20 lg:grid-cols-4">
         {blogs.map((blog) => (
           <div
             key={blog.id}

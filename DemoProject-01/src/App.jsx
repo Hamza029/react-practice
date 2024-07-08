@@ -54,7 +54,7 @@ const router = createBrowserRouter([
 function App() {
   return (
     <div className="flex bg-white py-16">
-      <div className="w-full">
+      <div className="w-full flex justify-center items-center">
         <RouterProvider router={router} />
       </div>
     </div>

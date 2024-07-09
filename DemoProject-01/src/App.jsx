@@ -11,14 +11,17 @@ import SingleBlog from "./pages/SingleBlog";
 import CreateBlog from "./pages/CreateBlog";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import { AuthContextProvider } from "./contexts/authContext";
 
 const Layout = () => {
   return (
-    <>
+    <div className="relative min-h-screen">
       <Navbar />
-      <Outlet />
+      <div className="pt-12 pb-8">
+        <Outlet />
+      </div>
       <Footer />
-    </>
+    </div>
   );
 };
 
@@ -39,24 +42,24 @@ const router = createBrowserRouter([
         path: "/create-blog",
         element: <CreateBlog />,
       },
+      {
+        path: "signup",
+        element: <Signup />,
+      },
+      {
+        path: "login",
+        element: <Login />,
+      },
     ],
-  },
-  {
-    path: "signup",
-    element: <Signup />,
-  },
-  {
-    path: "login",
-    element: <Login />,
   },
 ]);
 
 function App() {
   return (
-    <div className="flex bg-white py-16">
-      <div className="w-full flex justify-center items-center">
+    <div className="">
+      <AuthContextProvider>
         <RouterProvider router={router} />
-      </div>
+      </AuthContextProvider>
     </div>
   );
 }

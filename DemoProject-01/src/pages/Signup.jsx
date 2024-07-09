@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const Signup = () => {
   return (
-    <div className="flex justify-center items-center h-screen bg-green-200 flex-col">
-      <h1 className="text-4xl text-green-900 font-bold mb-7">Signup</h1>
+    <div className="flex justify-center items-center flex-col pt-20">
+      <h1 className="text-5xl text-green-900 font-bold mb-7">Signup</h1>
       <form className="flex flex-col p-12 bg-white rounded-xl w-72 md:w-[25rem] gap-7 shadow-xl">
         <input
           className="p-2 border-b-2 border-green-400 focus:outline-none focus:border-green-800"

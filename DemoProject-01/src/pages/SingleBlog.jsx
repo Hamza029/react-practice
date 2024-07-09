@@ -5,10 +5,18 @@ const SinglePost = () => {
     <div className="px-8 md:px-48 lg:px-20 lg:w-1/2">
       <div className="flex flex-col justify-start items-start">
         <div>
-          <div className="text-4xl mb-7 font-bold text-gray-900">
+          <div className="text-5xl mb-7 font-bold text-gray-900">
             Lorem, ipsum dolor sit amet consectetur adipisicing.
           </div>
-          <div className="mb-5 font-medium">Author: hamza029</div>
+          <div className="mb-7">
+            <button className="px-3 py-2 rounded-md text-white bg-green-500 hover:bg-green-700 duration-200 mr-2">
+              Update
+            </button>
+            <button className="px-3 py-2 rounded-md text-white bg-red-500 hover:bg-red-700 duration-200">
+              Update
+            </button>
+          </div>
+          <div className="mb-7 font-medium">Author: hamza029</div>
         </div>
         <div>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi

@@ -74,10 +74,90 @@ const Home = () => {
         "description of the blog sadhfljaslfjlkasdjflkdasjflkdjaslfkjaslkfjlakfjlakssafsafasdfasdfasdfafaffjlkafjlkajflkafjlafjl sadflkdjasflk",
       authorUsername: "j",
     },
+    {
+      id: "0a4d6f7a-379b-11ef-bf41-088fc3196e05",
+      authorId: "43b832f4-3799-11ef-bf41-088fc3196e05",
+      title: "blog-10 user-k",
+      description:
+        "description of the blog sadhfljaslfjlkasdjflkdasjflkdjaslfkjaslkfjlakfjlakssafsafasdfasdfasdfafaffjlkafjlkajflkafjlafjl sadflkdjasflk",
+      authorUsername: "j",
+    },
+    {
+      id: "0a4d6f7a-379b-11ef-bf41-088fc3196e05",
+      authorId: "43b832f4-3799-11ef-bf41-088fc3196e05",
+      title: "blog-10 user-k",
+      description:
+        "description of the blog sadhfljaslfjlkasdjflkdasjflkdjaslfkjaslkfjlakfjlakssafsafasdfasdfasdfafaffjlkafjlkajflkafjlafjl sadflkdjasflk",
+      authorUsername: "j",
+    },
+    {
+      id: "0a4d6f7a-379b-11ef-bf41-088fc3196e05",
+      authorId: "43b832f4-3799-11ef-bf41-088fc3196e05",
+      title: "blog-10 user-k",
+      description:
+        "description of the blog sadhfljaslfjlkasdjflkdasjflkdjaslfkjaslkfjlakfjlakssafsafasdfasdfasdfafaffjlkafjlkajflkafjlafjl sadflkdjasflk",
+      authorUsername: "j",
+    },
+    {
+      id: "0a4d6f7a-379b-11ef-bf41-088fc3196e05",
+      authorId: "43b832f4-3799-11ef-bf41-088fc3196e05",
+      title: "blog-10 user-k",
+      description:
+        "description of the blog sadhfljaslfjlkasdjflkdasjflkdjaslfkjaslkfjlakfjlakssafsafasdfasdfasdfafaffjlkafjlkajflkafjlafjl sadflkdjasflk",
+      authorUsername: "j",
+    },
+    {
+      id: "0a4d6f7a-379b-11ef-bf41-088fc3196e05",
+      authorId: "43b832f4-3799-11ef-bf41-088fc3196e05",
+      title: "blog-10 user-k",
+      description:
+        "description of the blog sadhfljaslfjlkasdjflkdasjflkdjaslfkjaslkfjlakfjlakssafsafasdfasdfasdfafaffjlkafjlkajflkafjlafjl sadflkdjasflk",
+      authorUsername: "j",
+    },
+    {
+      id: "0a4d6f7a-379b-11ef-bf41-088fc3196e05",
+      authorId: "43b832f4-3799-11ef-bf41-088fc3196e05",
+      title: "blog-10 user-k",
+      description:
+        "description of the blog sadhfljaslfjlkasdjflkdasjflkdjaslfkjaslkfjlakfjlakssafsafasdfasdfasdfafaffjlkafjlkajflkafjlafjl sadflkdjasflk",
+      authorUsername: "j",
+    },
+    {
+      id: "0a4d6f7a-379b-11ef-bf41-088fc3196e05",
+      authorId: "43b832f4-3799-11ef-bf41-088fc3196e05",
+      title: "blog-10 user-k",
+      description:
+        "description of the blog sadhfljaslfjlkasdjflkdasjflkdjaslfkjaslkfjlakfjlakssafsafasdfasdfasdfafaffjlkafjlkajflkafjlafjl sadflkdjasflk",
+      authorUsername: "j",
+    },
+    {
+      id: "0a4d6f7a-379b-11ef-bf41-088fc3196e05",
+      authorId: "43b832f4-3799-11ef-bf41-088fc3196e05",
+      title: "blog-10 user-k",
+      description:
+        "description of the blog sadhfljaslfjlkasdjflkdasjflkdjaslfkjaslkfjlakfjlakssafsafasdfasdfasdfafaffjlkafjlkajflkafjlafjl sadflkdjasflk",
+      authorUsername: "j",
+    },
+    {
+      id: "0a4d6f7a-379b-11ef-bf41-088fc3196e05",
+      authorId: "43b832f4-3799-11ef-bf41-088fc3196e05",
+      title: "blog-10 user-k",
+      description:
+        "description of the blog sadhfljaslfjlkasdjflkdasjflkdjaslfkjaslkfjlakfjlakssafsafasdfasdfasdfafaffjlkafjlkajflkafjlafjl sadflkdjasflk",
+      authorUsername: "j",
+    },
+    {
+      id: "0a4d6f7a-379b-11ef-bf41-088fc3196e05",
+      authorId: "43b832f4-3799-11ef-bf41-088fc3196e05",
+      title: "blog-10 user-k",
+      description:
+        "description of the blog sadhfljaslfjlkasdjflkdasjflkdjaslfkjaslkfjlakfjlakssafsafasdfasdfasdfafaffjlkafjlkajflkafjlafjl sadflkdjasflk",
+      authorUsername: "j",
+    },
   ];
 
   return (
-    <div>
+    <div className="py-7">
       <div className="grid grid-cols-1 gap-4 mx-10 md:grid-cols-2 md:mx-20 lg:grid-cols-4">
         {blogs.map((blog) => (
           <div
